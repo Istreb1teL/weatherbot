@@ -1,8 +1,8 @@
 import pyowm
 import telebot
 from telebot import types
-bot=telebot.TeleBot('1462800551:AAEWI2bHxtIIXQqsEnjlOTZCvLnsYFKLT9s')
-owm = pyowm.OWM('b05210473d9ed3a20deeef9644d3f2e9')
+bot=telebot.TeleBot('')
+owm = pyowm.OWM('')
 
 #bot
 @bot.message_handler(content_types=['text'])
