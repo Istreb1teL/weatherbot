@@ -1,5 +1,5 @@
 import pyowm
-owm = pyowm.OWM('b05210473d9ed3a20deeef9644d3f2e9')
+owm = pyowm.OWM('')
 place=input("В каком городе?")
 #weather
 observation=owm.weather_at_place(place)
