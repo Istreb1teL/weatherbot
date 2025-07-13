@@ -1,7 +1,7 @@
 import pyowm
 import telebot
-bot=telebot.TeleBot('1462800551:AAEWI2bHxtIIXQqsEnjlOTZCvLnsYFKLT9s')
-owm = pyowm.OWM('b05210473d9ed3a20deeef9644d3f2e9')
+bot=telebot.TeleBot('')
+owm = pyowm.OWM('')
 #keyboard
 keyboard1=telebot.types.ReplyKeyboardMarkup(True)
 keyboard1.row('temperature', 'wind', 'sunrise')
